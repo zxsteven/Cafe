@@ -1172,6 +1172,22 @@
 }
 
 @media screen and (max-width: 479px) {
+  .top-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+
   .top-section._300vh {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1228,6 +1244,10 @@
   }
 
   .text-block {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
     font-size: 15px;
     line-height: 25px;
     font-weight: 600;
@@ -1339,6 +1359,22 @@
     overflow: hidden;
   }
 
+  .hero-headline-wrapper {
+    height: auto;
+    max-width: none;
+    margin-top: 120px;
+    margin-right: 20px;
+    margin-left: 20px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+  }
+
   .hero-headline-wrapper.hero-page {
     width: auto;
     max-width: none;
@@ -1354,6 +1390,12 @@
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+
+  .heading-h1 {
+    margin-bottom: 24px;
+    font-size: 40px;
+    line-height: 58px;
   }
 
   .heading-h1.white {
@@ -1506,6 +1548,177 @@
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
+  }
+
+  .section {
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+
+  .section.contact {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .container {
+    max-width: none;
+    min-width: auto;
+    padding: 60px 20px;
+  }
+
+  .grid-2 {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .content {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .heading {
+    font-size: 36px;
+  }
+
+  .story {
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+
+  .div-block {
+    max-width: 480px;
+    min-width: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 60px 20px;
+  }
+
+  .grid-3 {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .heading-2 {
+    font-size: 40px;
+    line-height: 58px;
+  }
+
+  .bottom-hero {
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+
+  .hero-section {
+    height: 700px;
+    padding-top: 24px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .hero-text {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .hero-image {
+    width: auto;
+    height: 300px;
+  }
+
+  .heading-h3 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .menu-div {
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+  }
+
+  .food-image {
+    height: auto;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+  }
+
+  .food-image-slider {
+    height: auto;
+  }
+
+  .images {
+    height: auto;
+  }
+
+  .food-slide-image {
+    height: auto;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+  }
+
+  .menu-list {
+    width: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .collection-item {
+    padding-left: 0px;
+  }
+
+  .menu-title {
+    margin-bottom: 34px;
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .container-2 {
+    max-width: none;
+    padding: 60px 20px;
+  }
+
+  .contact {
+    padding-right: 0px;
+    padding-left: 0px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+
+  .grid-4 {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .heading-4 {
+    margin-top: 0px;
+    margin-bottom: 24px;
+  }
+
+  .heading-5 {
+    margin-top: 0px;
+    margin-bottom: 24px;
+  }
+
+  .heading-6 {
+    margin-top: 0px;
   }
 }
 
